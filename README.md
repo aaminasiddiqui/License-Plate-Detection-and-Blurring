@@ -4,8 +4,8 @@
 ___
 
 The program detects and blurrs license plates using the **detect_and_blur_plate function**. 
-The function dexcription is as follows:
-1. **Copying the Image**: The function begins by creating copies of the input image img to plate_img and roi to avoid modifying the original image.
+The function description is as follows:
+1. **Copying the Image**: The function begins by creating copies of the input image img to plate_img and ROI to avoid modifying the original image.
 
 2. **Detecting License Plates**:
   -The function uses the plate_cascade (a pre-trained classifier, typically using **Haar cascades**) to detect rectangular regions in the image that likely contain license plates.
