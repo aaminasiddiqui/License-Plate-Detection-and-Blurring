@@ -3,7 +3,7 @@
 
 ___
 
-The program detects and blurrs license plates using the **detect_and_blur_plate function**. 
+The **detect_and_blur_plate function** is used to detect regions likely containing license plates and blur these regions. This can be useful for privacy reasons when sharing images or videos where license plates need to be obscured.
 The function description is as follows:
 1. **Copying the Image**: The function begins by creating copies of the input image 'img' to 'plate_img' and ROI to avoid modifying the original image.
 
